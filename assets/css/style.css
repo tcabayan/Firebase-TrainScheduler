@@ -1,0 +1,61 @@
+body {
+    margin: 5% 10%;
+    background: url("../../assets/images/interlaced.png");
+}
+
+.jumbotron {
+    text-align: center;
+    background: #0044ff;
+    color: rgb(255, 250, 250);
+    border: 5px;
+    border-radius: 10px;
+}
+
+h1, p {
+    text-shadow: 0 0 20px #000000;
+    font-weight: bolder;
+}
+
+.card {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5% auto;
+}
+
+.card-header {
+    border-bottom: 5px solid black;
+}
+
+td {
+    border-right: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-top: 0;
+}
+
+th {
+    text-align: center;
+    border-bottom: 2px solid #000000 !important;
+    border-right: 2px solid #000000 !important;
+
+}
+
+th:last-child, td:last-child {
+    border-right: none !important;
+}
+
+
+td {
+    text-align: center;
+}
+
+.form-group {
+    padding: 5px 15px;
+}
+
+.btn {
+    margin: 4px 10px;
+    width: 15%;
+    background: #0044ff;
+
+}
